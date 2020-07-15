@@ -171,7 +171,7 @@ def dispachinfo(topic, todaystr):
 
 def dispachhelp():
     print("-todo :usage 'python3 visvak.py -todo'. list all the topics you need to rewise today.")
-    print("-add :usage 'python3 visvak.py -add <topic name> <distribution>'.If no list is provided distribution is assumed to be default.")
+    print("-add :usage 'python3 visvak.py -add <topic name> <distribution>'. Example: '-add sicp [1,2,3,6,10]' .If no list is provided distribution is assumed to be default.")
     print("-list  :usage 'python3 visvak.py -list' . lists all the topic names in the database.")
     print("-default :usage 'python3 visvak.py -default'. Prints the default day distribution.")
     print("-remove :usage 'python3 visvak.py -remove <topic name>'. Removes the topic from the data base.")
